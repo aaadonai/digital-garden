@@ -1,0 +1,147 @@
+.section-heading {
+  text-align:center;
+  color:#102C4E;
+  margin-top: 150px;
+  margin-bottom:70px;
+  font-size: 35px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+a.item1 {
+  color: #004a67;
+}
+
+.item1 {
+  color: #004a67;
+  background: #09b0d4;
+}
+
+.item2 {
+  color: #748634;
+  background: #c1cc70;
+}
+
+.item3 {
+  color: #fff;
+  background: #f35e7b;
+}
+
+.item4 {
+  color: #c37b0d;
+  background: #f7c05b;
+}
+
+.item5 {
+  color: #c1465b;
+  background: #fc96a3;
+}
+
+.item6 {
+  color: #f29514;
+  background: #e8c257;
+}
+
+.item7 {
+  color: #c0daeb;
+  background: #f2eecb;
+}
+
+.item8 {
+  color: #09893f;
+  background: #6bb383;
+}
+
+.item9 {
+  color: #005762;
+  background: #a2ddeb;
+}
+
+.item10 {
+  color: #00346b;
+  background: #9aadce;
+}
+
+.item11 {
+  color: #b57909;
+  background: #eabd6c;
+}
+
+.item12 {
+  color: #c21d45;
+  background: #f89cab;
+}
+
+.item13 {
+  background: #0f8cba;
+}
+
+.item14 {
+  color: #94132f;
+  background: #f05c7e;
+}
+
+.item15 {
+  color: #06512a;
+  background: #249557;
+}
+
+.item16 {
+  color: #044352;
+  background: #2a9cb6;
+}
+
+.l-grid-container {
+  display: grid;
+  height: calc(100vw * 4 / 6);
+  grid-template-rows: calc(100% / 4) calc(100% / 4) calc(100% / 4) calc(100% / 4);
+  grid-template-columns: calc(100% / 6) calc(100% / 6) calc(100% / 6) calc(100% / 6) calc(100% / 6) calc(100% / 6);
+}
+
+.item {
+  width: 100%;
+  height: 100%;
+  font-size: 60px;
+  padding: 20px 30px;
+  box-sizing: border-box;
+}
+
+/* span でもセル何個か定義できる */
+.item3 {
+  grid-row: span 2;
+  grid-column: span 2;
+}
+
+.item4 {
+  grid-column: span 2;
+}
+
+.item8 {
+  grid-row: span 2;
+}
+
+.item9 {
+  grid-column: span 2;
+}
+
+.item10 {
+  grid-row: span 2;
+}
+
+.item16 {
+  grid-column: span 2;
+}
